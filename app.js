@@ -11,7 +11,7 @@ let lastAPICall = 0;
 let userMessage = null;
 let isResponseGenerating = false;
 
-const API_KEY = "AIzaSyABxbTfxGonP_c57AhqA7QtF8d_uD0fzPw";
+const API_KEY = "AIzaSyDlmFsTs1jGa0BItPLtmLfVFSjiaEXlvwE";
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`
 
 const loadLocalStorageData = () =>{
